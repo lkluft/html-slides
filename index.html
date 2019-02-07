@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Slideshow</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:700);
+
+      body {
+        font-family: 'Merriweather Sans';
+        color: rgb(51,51,51);
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: bold;
+        color: rgb(66, 165, 245);
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Source Code Pro';
+        font-weight: bold;
+        color: rgb(51,51,51);
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# HTML Slideshow
+
+Lukas Kluft
+
+`@Klufti`
+
+---
+
+# First Slide
+
+Sentence with `sample code`
+
+---
+
+# Second Slide
+
+Have a nice list
+1. Foo
+1. Bar
+1. Baz
+
+---
+
+# Code blocks!
+
+```python
+question = "How cool is that?!"
+print(question)
+```
+
+```bash
+export FOO=bar
+* ./important.sh
+```
+
+???
+
+Slide notes
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightStyle: 'monokai',
+        highlightLines: true,
+      });
+    </script>
+  </body>
+</html>
