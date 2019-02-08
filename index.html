@@ -40,29 +40,49 @@ Lukas Kluft
 
 # First Slide
 
-Sentence _with_ `sample code`
+Simple **sentence** ~~using~~ markdown _with_ `sample code`
+
+Further resources:
+* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [remark.js](https://github.com/gnab/remark)
 
 ---
 
 # Second Slide
 
-Have a nice list
-1. Foo
-1. Bar
-1. Baz
+Very important content!
+
+## Second header
+
+Important content.
+
+### Third header
+
+Content...
+
 
 ---
 
 # Code blocks!
 
+Syntax highlighting for various languages like python
 ```python
-question = "How cool is that?!"
-print(question)
+def square(x):
+    """Return the square of a number x."""
+    return x**2
+
+
+squares = [square(i) for i in range(10)]
 ```
 
+... or bash
 ```bash
-export FOO=bar
+export FOO=42
 *./important.sh
+
+mkdir -p foo/bar
+cd foo
+
 ```
 
 ???
