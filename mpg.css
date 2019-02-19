@@ -2,20 +2,20 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:regular);
 
 body {
-  font-family: 'Merriweather Sans';
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1, h2, h3 {
-  color: #017d7a;
-  font-family: 'Merriweather';
+  color: #006c66;
+  font-family: 'Merriweather', serif;
 }
 h1 {
   font-weight: light;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
 }
 h2 {
   font-weight: light;
-  letter-spacing: -0.5px;
+  letter-spacing: 0px;
 }
 h3 {
   font-weight: regular;
@@ -29,11 +29,9 @@ em {
 }
 
 .inverse {
-  background: #017d7a;
+  background: #006c66;
   color: #f3f3f3;
 }
 .inverse h1, .inverse h2, .inverse h3{
   color: #f3f3f3;
-  font-family: 'Yanone Kaffeesatz';
-  letter-spacing: 0px;
 }
