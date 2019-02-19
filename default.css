@@ -28,10 +28,7 @@ h3 {
   letter-spacing: 0px;
 }
 
-strong {
-  color: #0077c2;
-}
-em {
+strong, em {
   color: #80d6ff;
 }
 

@@ -21,11 +21,9 @@ h3 {
   font-weight: regular;
   letter-spacing: 0px;
 }
-strong {
-  color: #00504e;
-}
-em {
-  color: #4bada9;
+
+strong, em {
+  color: #459b94;
 }
 
 .inverse {
