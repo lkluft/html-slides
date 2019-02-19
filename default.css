@@ -32,6 +32,10 @@ strong, em {
   color: #80d6ff;
 }
 
+del {
+  color: #888888;
+}
+
 .remark-code, .remark-inline-code {
   font-family: 'Roboto Mono', monospace;
   font-weight: regular;
